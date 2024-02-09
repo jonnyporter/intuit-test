@@ -34,4 +34,14 @@ test('test intuit', async ({ page, context }) => {
     });
   }));
   console.log(timeEntries);
+
+  // //
+
+  // await page.getByLabel('Main', { exact: true }).getByRole('link', { name: 'Invoices' }).click();
+  // await page.getByRole('link', { name: 'Clients', exact: true }).click();
+
+  // await page.getByPlaceholder('Search').fill(timeEntries[0].client);
+  // await page.locator('button[name*="CUSTOMER |"]').first().click();
+  // await page.getByRole('main').locator('i').click();
+
 });
